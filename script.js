@@ -42,6 +42,7 @@ function initScrollSpy() {
     const sections = document.querySelectorAll('section');
     const navLinks = document.querySelectorAll('.site-nav a');
     const dots = document.querySelectorAll('.dot');
+    const mobileLinks = document.querySelectorAll('.mobile-nav-item');
     const header = document.querySelector('.site-header');
 
     window.addEventListener('scroll', () => {
@@ -76,6 +77,14 @@ function initScrollSpy() {
             dot.classList.remove('active');
             if (dot.getAttribute('href').includes(current)) {
                 dot.classList.add('active');
+            }
+        });
+
+        // Update Mobile Bottom Nav
+        mobileLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href').includes(current)) {
+                link.classList.add('active');
             }
         });
     });
