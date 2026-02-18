@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Thiru Studio — Photography & Video Excellence</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+		rel="stylesheet">
 	<link rel="stylesheet" href="styles.css">
-	<link rel="icon" href="logo.jpg" type="circle-logo">
+	<link rel="icon" href="logo.jpg" type="image/jpeg">
 </head>
+
 <body>
-	  
+
 	<header class="site-header">
 		<div class="container header-inner">
 			<div class="brand-wrapper">
@@ -16,18 +23,36 @@
 				<a class="brand" href="#hero">Thiru Studio</a>
 				<p class="brand-tagline">Visual Storytelling</p>
 				<div class="brand-info">
-				<span>20 Years in Business</span> • <span>Open until 9:00 PM</span>
+					<span>20 Years in Business</span> • <span>Open until 9:00 PM</span>
 				</div>
 			</div>
 			<button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
 			<nav id="siteNav" class="site-nav">
+				<a href="#hero">Home</a>
 				<a href="#services">Services</a>
 				<a href="#work">Work</a>
 				<a href="#about">About</a>
 				<a href="#contact" class="btn btn-nav">Contact</a>
+				<button class="search-btn" aria-label="Search">
+					<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+						stroke-linecap="round" stroke-linejoin="round">
+						<circle cx="11" cy="11" r="8"></circle>
+						<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+					</svg>
+				</button>
 			</nav>
 		</div>
 	</header>
+
+	<div class="dot-nav">
+		<a href="#hero" class="dot active" aria-label="Go to Home"></a>
+		<a href="#services" class="dot" aria-label="Go to Services"></a>
+		<a href="#pricing" class="dot" aria-label="Go to Pricing"></a>
+		<a href="#work" class="dot" aria-label="Go to Work"></a>
+		<a href="#about" class="dot" aria-label="Go to About"></a>
+		<a href="#gallery" class="dot" aria-label="Go to Gallery"></a>
+		<a href="#contact" class="dot" aria-label="Go to Contact"></a>
+	</div>
 
 	<main>
 		<section id="hero" class="hero">
@@ -35,7 +60,8 @@
 				<div class="hero-content">
 					<h1 class="hero-title">Thiru Studio</h1>
 					<p class="hero-subtitle">Capturing Timeless Moments</p>
-					<p class="hero-description">Professional photography & videography specializing in weddings, candid moments and cinematic storytelling with artistic excellence.</p>
+					<p class="hero-description">Professional photography & videography specializing in weddings, candid
+						moments and cinematic storytelling with artistic excellence.</p>
 					<div class="hero-cta">
 						<a href="#contact" class="btn btn-primary btn-lg">Start Your Project</a>
 						<a href="#work" class="btn btn-secondary btn-lg">View Our Work</a>
@@ -54,13 +80,15 @@
 					<div class="service-card">
 						<div class="service-icon">📸</div>
 						<h3>Photography</h3>
-						<p>Portraits, events and editorial photography with a clean, timeless look and artistic composition.</p>
+						<p>Portraits, events and editorial photography with a clean, timeless look and artistic
+							composition.</p>
 						<a href="#contact" class="learn-more">Learn More →</a>
 					</div>
 					<div class="service-card">
 						<div class="service-icon">🎬</div>
 						<h3>Videography</h3>
-						<p>Cinematic wedding films, highlight reels and promotional videos with professional editing.</p>
+						<p>Cinematic wedding films, highlight reels and promotional videos with professional editing.
+						</p>
 						<a href="#contact" class="learn-more">Learn More →</a>
 					</div>
 					<div class="service-card">
@@ -72,7 +100,8 @@
 					<div class="service-card">
 						<div class="service-icon">🎥</div>
 						<h3>Video Shooting</h3>
-						<p>Professional video shooting for weddings, events, corporate and promotional content with cinematic quality.</p>
+						<p>Professional video shooting for weddings, events, corporate and promotional content with
+							cinematic quality.</p>
 						<a href="#contact" class="learn-more">Learn More →</a>
 					</div>
 				</div>
@@ -89,12 +118,14 @@
 					<div class="pricing-card">
 						<h3>💍 Wedding Photography</h3>
 						<p class="price">₹25,000 - ₹30,000</p>
-						<p>Full-day coverage with focus on storytelling, posed portraits and candid moments with customizable albums.</p>
+						<p>Full-day coverage with focus on storytelling, posed portraits and candid moments with
+							customizable albums.</p>
 					</div>
 					<div class="pricing-card">
 						<h3>🎉 Party Photography</h3>
 						<p class="price">₹15,000 - ₹20,000</p>
-						<p>Capture lively moments, decorations and guest enjoyment throughout your event with professional editing.</p>
+						<p>Capture lively moments, decorations and guest enjoyment throughout your event with
+							professional editing.</p>
 					</div>
 					<div class="pricing-card">
 						<h3>🎂 Birthday Photography</h3>
@@ -104,30 +135,37 @@
 					<div class="pricing-card">
 						<h3>💑 Engagement Photography</h3>
 						<p class="price">₹12,000 - ₹15,000</p>
-						<p>Personal and professional engagement photos with your preferred theme and emotion-filled storytelling.</p>
+						<p>Personal and professional engagement photos with your preferred theme and emotion-filled
+							storytelling.</p>
 					</div>
 					<div class="pricing-card">
 						<h3>🎊 Function Photography</h3>
 						<p class="price">₹15,000 - ₹20,000</p>
-						<p>Comprehensive coverage from start to finish capturing ceremonial moments, portraits and ambient shots.</p>
+						<p>Comprehensive coverage from start to finish capturing ceremonial moments, portraits and
+							ambient shots.</p>
 					</div>
 					<div class="pricing-card">
 						<h3>🪔 Festival Photography</h3>
 						<p class="price">₹7,000 - ₹12,000</p>
-						<p>Dynamic coverage of festival celebrations with both candid and posed shots in high resolution.</p>
+						<p>Dynamic coverage of festival celebrations with both candid and posed shots in high
+							resolution.</p>
 					</div>
 					<div class="pricing-card">
 						<h3>💑 Anniversary Photography</h3>
 						<p class="price">₹10,000 - ₹15,000</p>
-						<p>Celebrate your love and lasting memories with customized intimate or full-scale anniversary sessions.</p>
+						<p>Celebrate your love and lasting memories with customized intimate or full-scale anniversary
+							sessions.</p>
 					</div>
 					<div class="pricing-card">
 						<h3>👗 Fashion Portfolio Shoots</h3>
 						<p class="price">Custom Quote</p>
-						<p>Professional fashion shoots showcasing range of looks and styles for models, designers and enthusiasts.</p>
+						<p>Professional fashion shoots showcasing range of looks and styles for models, designers and
+							enthusiasts.</p>
 					</div>
 				</div>
-				<p class="pricing-note">📌 <strong>Note:</strong> Prices are indicative. Actual charges may vary based on specific requirements. Contact us for custom quotes on other services like Corporate Photography, Video Shooting, Outdoor Photography, and more.</p>
+				<p class="pricing-note">📌 <strong>Note:</strong> Prices are indicative. Actual charges may vary based
+					on specific requirements. Contact us for custom quotes on other services like Corporate Photography,
+					Video Shooting, Outdoor Photography, and more.</p>
 			</div>
 		</section>
 
@@ -138,43 +176,49 @@
 					<p class="section-subtitle">Our latest and greatest projects</p>
 				</div>
 				<div class="grid cols-3">
-					<figure class="work-item"> 
-						<div class="work-thumb" data-src="wed 1.webp" data-caption="Smith Wedding — Full Day Coverage"></div>
+					<figure class="work-item">
+						<div class="work-thumb" data-src="wed 1.webp" data-caption="Smith Wedding — Full Day Coverage">
+						</div>
 						<figcaption>
 							<h3>Smith Wedding</h3>
 							<p>Full Day Coverage</p>
 						</figcaption>
 					</figure>
-					<figure class="work-item"> 
-						<div class="work-thumb" data-src="wed 22.webp" data-caption="Candid Moments — Street & Events"></div>
+					<figure class="work-item">
+						<div class="work-thumb" data-src="wed 22.webp" data-caption="Candid Moments — Street & Events">
+						</div>
 						<figcaption>
 							<h3>Candid Moments</h3>
 							<p>Street & Events</p>
 						</figcaption>
 					</figure>
-					<figure class="work-item"> 
-						<div class="work-thumb" data-src="wed 3.webp" data-caption="Highlight Reel — Cinematic Edits"></div>
+					<figure class="work-item">
+						<div class="work-thumb" data-src="wed 3.webp" data-caption="Highlight Reel — Cinematic Edits">
+						</div>
 						<figcaption>
 							<h3>Highlight Reel</h3>
 							<p>Cinematic Edits</p>
 						</figcaption>
 					</figure>
-					<figure class="work-item"> 
-						<div class="work-thumb" data-src="wed 4.heic" data-caption="Reception Coverage — Evening Moments"></div>
+					<figure class="work-item">
+						<div class="work-thumb" data-src="wed 4.heic"
+							data-caption="Reception Coverage — Evening Moments"></div>
 						<figcaption>
 							<h3>Reception Coverage</h3>
 							<p>Evening Moments</p>
 						</figcaption>
 					</figure>
-					<figure class="work-item"> 
-						<div class="work-thumb" data-src="wed 5.heic" data-caption="Ceremony Highlights — Sacred Moments"></div>
+					<figure class="work-item">
+						<div class="work-thumb" data-src="wed 5.heic"
+							data-caption="Ceremony Highlights — Sacred Moments"></div>
 						<figcaption>
 							<h3>Ceremony Highlights</h3>
 							<p>Sacred Moments</p>
 						</figcaption>
 					</figure>
-					<figure class="work-item"> 
-						<div class="work-thumb" data-src="wed 6.heic" data-caption="Closeups & Details — Artistic Focus"></div>
+					<figure class="work-item">
+						<div class="work-thumb" data-src="wed 6.heic"
+							data-caption="Closeups & Details — Artistic Focus"></div>
 						<figcaption>
 							<h3>Closeups & Details</h3>
 							<p>Artistic Focus</p>
@@ -189,8 +233,11 @@
 				<div class="about-wrapper">
 					<div class="about-content">
 						<h2>About Thiru Studio</h2>
-						<p>Thiru Studio is a photography and video studio dedicated to documenting weddings, candid moments and cinematic stories. We focus on natural storytelling, clear composition and a friendly client experience.</p>
-						<p>With years of experience in visual media, we bring creativity, technical expertise, and passion to every project we undertake.</p>
+						<p>Thiru Studio is a photography and video studio dedicated to documenting weddings, candid
+							moments and cinematic stories. We focus on natural storytelling, clear composition and a
+							friendly client experience.</p>
+						<p>With years of experience in visual media, we bring creativity, technical expertise, and
+							passion to every project we undertake.</p>
 						<div class="about-stats">
 							<div class="stat">
 								<strong>500+</strong>
@@ -230,12 +277,12 @@
 						<figcaption>Moment 3</figcaption>
 					</figure>
 					<figure class="gallery-item">
-					<div class="gallery-thumb" data-src="wed 4.heic" data-caption="Wedding Moment 4"></div>
-					<figcaption>Moment 4</figcaption>
-				</figure>
-				<figure class="gallery-item">
+						<div class="gallery-thumb" data-src="wed 4.heic" data-caption="Wedding Moment 4"></div>
+						<figcaption>Moment 4</figcaption>
+					</figure>
+					<figure class="gallery-item">
 
-					<div class="gallery-thumb" data-src="wed 6.heic" data-caption="Wedding Moment 6"></div>
+						<div class="gallery-thumb" data-src="wed 6.heic" data-caption="Wedding Moment 6"></div>
 						<figcaption>Moment 6</figcaption>
 					</figure>
 					<figure class="gallery-item">
@@ -336,7 +383,7 @@
 						<figcaption>Moment 32</figcaption>
 					</figure>
 					<figure class="gallery-item">
-					<div class="gallery-thumb" data-src="wedd 33.webp" data-caption="Wedding Moment 33"></div>
+						<div class="gallery-thumb" data-src="wedd 33.webp" data-caption="Wedding Moment 33"></div>
 						<figcaption>Moment 33</figcaption>
 					</figure>
 				</div>
@@ -352,7 +399,8 @@
 				<div class="contact-wrapper">
 					<div class="contact-info-box">
 						<h3>Let's Create Something Amazing</h3>
-						<p>We're here to turn your vision into a beautiful reality. Connect with us today for a consultation.</p>
+						<p>We're here to turn your vision into a beautiful reality. Connect with us today for a
+							consultation.</p>
 						<div class="contact-details">
 							<div class="detail-item">
 								<span class="detail-icon">✉️</span>
@@ -365,28 +413,29 @@
 								<span class="detail-icon">📱</span>
 								<div>
 									<strong>Phone</strong>
-										<a href="tel:+919842743187">+91 98427 43187</a>
+									<a href="tel:+919842743187">+91 98427 43187</a>
 								</div>
 							</div>
 							<div class="detail-item">
 								<span class="detail-icon">💬</span>
 								<div>
 									<strong>WhatsApp</strong>
-										<a href="https://wa.me/919842743187" target="_blank">+91 98427 43187</a>
+									<a href="https://wa.me/919842743187" target="_blank">+91 98427 43187</a>
 								</div>
 							</div>
 							<div class="detail-item">
 								<span class="detail-icon">🌐</span>
 								<div>
-								<strong>Operating Hours</strong>
-								<p>Opens within 9:00 PM</p>
+									<strong>Operating Hours</strong>
+									<p>Opens within 9:00 PM</p>
 								</div>
 							</div>
 							<div class="detail-item">
 								<span class="detail-icon">📍</span>
 								<div>
 									<strong>Address</strong>
-									<p>No 1, Muthu Complex, Near Lakshmi Vilas Bank, New Edapadi Road, Sankagiri, Salem-637301, Tamil Nadu</p>
+									<p>No 1, Muthu Complex, Near Lakshmi Vilas Bank, New Edapadi Road, Sankagiri,
+										Salem-637301, Tamil Nadu</p>
 								</div>
 							</div>
 						</div>
@@ -406,7 +455,8 @@
 						</div>
 						<div class="form-group">
 							<label for="message">Your Message</label>
-							<textarea id="message" name="message" rows="5" placeholder="Tell us about your project..." required></textarea>
+							<textarea id="message" name="message" rows="5" placeholder="Tell us about your project..."
+								required></textarea>
 						</div>
 						<button type="submit" class="btn btn-primary btn-lg">Send Message</button>
 					</form>
@@ -434,9 +484,12 @@
 				<div class="footer-section">
 					<h4>Follow Us</h4>
 					<div class="socials">
-						<a href="https://www.instagram.com/thirustudios_graphy" target="_blank" aria-label="Instagram" class="social-link">Instagram</a>
-						<a href="https://wa.me/919842743187" target="_blank" aria-label="WhatsApp" class="social-link">WhatsApp</a>
-						<a href="https://facebook.com/" target="_blank" aria-label="Facebook" class="social-link">Facebook</a>
+						<a href="https://www.instagram.com/thirustudios_graphy" target="_blank" aria-label="Instagram"
+							class="social-link">Instagram</a>
+						<a href="https://wa.me/919842743187" target="_blank" aria-label="WhatsApp"
+							class="social-link">WhatsApp</a>
+						<a href="https://facebook.com/" target="_blank" aria-label="Facebook"
+							class="social-link">Facebook</a>
 					</div>
 				</div>
 			</div>
@@ -446,9 +499,34 @@
 		</div>
 	</footer>
 
+	<div id="lightbox" class="lightbox">
+		<button id="lightboxClose" class="lightbox-close" aria-label="Close lightbox">&times;</button>
+		<div class="lightbox-content">
+			<img id="lightboxImg" src="" alt="Full screen view" class="lightbox-img">
+			<div id="lightboxCaption" class="lightbox-caption"></div>
+		</div>
+		<button id="lightboxPrev" class="lightbox-prev" aria-label="Previous image">&#10094;</button>
+		<button id="lightboxNext" class="lightbox-next" aria-label="Next image">&#10095;</button>
+	</div>
+	<nav class="mobile-bottom-nav">
+		<a href="#hero" class="mobile-nav-item active">
+			<span class="nav-icon">🏠</span>
+			<span class="nav-label">Home</span>
+		</a>
+		<a href="#services" class="mobile-nav-item">
+			<span class="nav-icon">bag</span> <!-- Using text/emoji for now, or SVG -->
+			<span class="nav-label">Services</span>
+		</a>
+		<a href="#work" class="mobile-nav-item">
+			<span class="nav-icon">📷</span>
+			<span class="nav-label">Work</span>
+		</a>
+		<a href="#contact" class="mobile-nav-item">
+			<span class="nav-icon">📞</span>
+			<span class="nav-label">Contact</span>
+		</a>
+	</nav>
 	<script src="script.js"></script>
 </body>
+
 </html>
-
-
-
